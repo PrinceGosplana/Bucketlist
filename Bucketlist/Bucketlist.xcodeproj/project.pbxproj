@@ -11,6 +11,7 @@
 		95202B2C2B43D13B00723164 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95202B2B2B43D13B00723164 /* ContentView.swift */; };
 		95202B2E2B43D13E00723164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95202B2D2B43D13E00723164 /* Assets.xcassets */; };
 		95202B312B43D13E00723164 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95202B302B43D13E00723164 /* Preview Assets.xcassets */; };
+		95202B392B43D1F900723164 /* ComparableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95202B382B43D1F900723164 /* ComparableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		95202B2B2B43D13B00723164 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		95202B2D2B43D13E00723164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95202B302B43D13E00723164 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95202B382B43D1F900723164 /* ComparableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		95202B282B43D13B00723164 /* Bucketlist */ = {
 			isa = PBXGroup;
 			children = (
+				95202B372B43D1EA00723164 /* Study */,
 				95202B292B43D13B00723164 /* BucketlistApp.swift */,
 				95202B2B2B43D13B00723164 /* ContentView.swift */,
 				95202B2D2B43D13E00723164 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				95202B302B43D13E00723164 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95202B372B43D1EA00723164 /* Study */ = {
+			isa = PBXGroup;
+			children = (
+				95202B382B43D1F900723164 /* ComparableView.swift */,
+			);
+			path = Study;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				95202B2C2B43D13B00723164 /* ContentView.swift in Sources */,
 				95202B2A2B43D13B00723164 /* BucketlistApp.swift in Sources */,
+				95202B392B43D1F900723164 /* ComparableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
