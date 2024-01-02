@@ -7,12 +7,25 @@
 
 import SwiftUI
 
+private struct User: Identifiable {
+    let id = UUID()
+    var firstName: String
+    var lastName: String
+}
+
 struct ComparableView: View {
-    let values = [1, 5, 3, 6, 2, 9]
-    
+    private let values = [1, 5, 3, 6, 2, 9].sorted()
+    private let users = [
+        User(firstName: "Arnold", lastName: "Rimer"),
+        User(firstName: "Kristen", lastName: "Kochanski"),
+        User(firstName: "David", lastName: "Lister")
+    ]
     var body: some View {
-        List(values, id: \.self) {
-            Text(String($0))
+        //            List(values, id: \.self) {
+        //                Text(String($0))
+        //            }
+        List(users) { user in
+            Text("\(user.lastName), \(user.firstName)")
         }
     }
 }
