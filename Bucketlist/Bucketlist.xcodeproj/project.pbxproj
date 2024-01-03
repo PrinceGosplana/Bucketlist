@@ -14,6 +14,7 @@
 		95202B392B43D1F900723164 /* ComparableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95202B382B43D1F900723164 /* ComparableView.swift */; };
 		95202B3B2B4517AD00723164 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95202B3A2B4517AD00723164 /* User.swift */; };
 		95202B3D2B451A1300723164 /* StoringDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95202B3C2B451A1300723164 /* StoringDataView.swift */; };
+		95202B3F2B451C9B00723164 /* EnumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95202B3E2B451C9B00723164 /* EnumView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		95202B382B43D1F900723164 /* ComparableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparableView.swift; sourceTree = "<group>"; };
 		95202B3A2B4517AD00723164 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		95202B3C2B451A1300723164 /* StoringDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoringDataView.swift; sourceTree = "<group>"; };
+		95202B3E2B451C9B00723164 /* EnumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				95202B382B43D1F900723164 /* ComparableView.swift */,
 				95202B3A2B4517AD00723164 /* User.swift */,
+				95202B3E2B451C9B00723164 /* EnumView.swift */,
 				95202B3C2B451A1300723164 /* StoringDataView.swift */,
 			);
 			path = Study;
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95202B3B2B4517AD00723164 /* User.swift in Sources */,
+				95202B3F2B451C9B00723164 /* EnumView.swift in Sources */,
 				95202B2C2B43D13B00723164 /* ContentView.swift in Sources */,
 				95202B3D2B451A1300723164 /* StoringDataView.swift in Sources */,
 				95202B2A2B43D13B00723164 /* BucketlistApp.swift in Sources */,
