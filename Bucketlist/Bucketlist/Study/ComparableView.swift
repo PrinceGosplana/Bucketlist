@@ -7,12 +7,6 @@
 
 import SwiftUI
 
-private struct User: Identifiable {
-    let id = UUID()
-    var firstName: String
-    var lastName: String
-}
-
 struct ComparableView: View {
     private let values = [1, 5, 3, 6, 2, 9].sorted()
     private let users = [
