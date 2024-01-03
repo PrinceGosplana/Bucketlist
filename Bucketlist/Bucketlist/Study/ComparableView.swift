@@ -13,7 +13,7 @@ struct ComparableView: View {
         User(firstName: "Arnold", lastName: "Rimer"),
         User(firstName: "Kristen", lastName: "Kochanski"),
         User(firstName: "David", lastName: "Lister")
-    ].sorted { $0.lastName < $1.lastName }
+    ].sorted()
     
     var body: some View {
         //            List(values, id: \.self) {
