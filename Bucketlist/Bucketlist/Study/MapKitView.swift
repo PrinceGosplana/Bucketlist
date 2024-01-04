@@ -11,6 +11,7 @@ import SwiftUI
 struct MapKitView: View {
     var body: some View {
         Map()
+            .mapStyle(.hybrid(elevation: .realistic))
     }
 }
 
