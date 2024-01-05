@@ -62,6 +62,8 @@ struct MapKitView: View {
             }
         }
         */
+        
+        /*
         Map {
             ForEach(locations) { location in
 //                Marker(location.name, coordinate: location.coordinate)
@@ -75,6 +77,16 @@ struct MapKitView: View {
                 }
                 .annotationTitles(.hidden)
             }
+        }
+        */
+        
+        MapReader { proxy in
+            Map()
+                .onTapGesture { position in
+                    if let coordinate = proxy.convert(position, from: .local) {
+                        print(coordinate)
+                    }
+                }
         }
     }
 }
