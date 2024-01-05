@@ -16,6 +16,7 @@
 		95202B3D2B451A1300723164 /* StoringDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95202B3C2B451A1300723164 /* StoringDataView.swift */; };
 		95202B3F2B451C9B00723164 /* EnumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95202B3E2B451C9B00723164 /* EnumView.swift */; };
 		95202B412B46697300723164 /* MapKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95202B402B46697300723164 /* MapKitView.swift */; };
+		95202B432B47BDC400723164 /* FaceIDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95202B422B47BDC400723164 /* FaceIDView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		95202B3C2B451A1300723164 /* StoringDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoringDataView.swift; sourceTree = "<group>"; };
 		95202B3E2B451C9B00723164 /* EnumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumView.swift; sourceTree = "<group>"; };
 		95202B402B46697300723164 /* MapKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitView.swift; sourceTree = "<group>"; };
+		95202B422B47BDC400723164 /* FaceIDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIDView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				95202B3E2B451C9B00723164 /* EnumView.swift */,
 				95202B3C2B451A1300723164 /* StoringDataView.swift */,
 				95202B402B46697300723164 /* MapKitView.swift */,
+				95202B422B47BDC400723164 /* FaceIDView.swift */,
 			);
 			path = Study;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			files = (
 				95202B3B2B4517AD00723164 /* User.swift in Sources */,
 				95202B412B46697300723164 /* MapKitView.swift in Sources */,
+				95202B432B47BDC400723164 /* FaceIDView.swift in Sources */,
 				95202B3F2B451C9B00723164 /* EnumView.swift in Sources */,
 				95202B2C2B43D13B00723164 /* ContentView.swift in Sources */,
 				95202B3D2B451A1300723164 /* StoringDataView.swift in Sources */,
