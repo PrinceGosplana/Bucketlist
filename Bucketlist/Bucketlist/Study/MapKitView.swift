@@ -64,7 +64,16 @@ struct MapKitView: View {
         */
         Map {
             ForEach(locations) { location in
-                Marker(location.name, coordinate: location.coordinate)
+//                Marker(location.name, coordinate: location.coordinate)
+                Annotation(location.name, coordinate: location.coordinate) {
+                    Text(location.name)
+                        .font(.headline)
+                        .padding()
+                        .background(.blue.gradient)
+                        .foregroundStyle(.white)
+                        .clipShape(.capsule)
+                }
+                .annotationTitles(.hidden)
             }
         }
     }
