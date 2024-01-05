@@ -27,6 +27,7 @@ struct MapKitView: View {
         Location(name: "Tower of London", coordinate: CLLocationCoordinate2D(latitude: 51.508, longitude: -0.076))
     ]
     var body: some View {
+        /*
         VStack {
             Map(position: $position)
                 .mapStyle(.hybrid(elevation: .realistic))
@@ -58,6 +59,12 @@ struct MapKitView: View {
                                            span: MKCoordinateSpan(latitudeDelta: 1,
                                                                   longitudeDelta: 1)))
                 }
+            }
+        }
+        */
+        Map {
+            ForEach(locations) { location in
+                Marker(location.name, coordinate: location.coordinate)
             }
         }
     }
