@@ -12,7 +12,16 @@ struct FaceIDView: View {
     @State private var isUnlocked = false
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            if isUnlocked {
+                Text("Unlocked")
+            } else {
+                ContentUnavailableView("Locked",
+                                       systemImage: "person.slash",
+                                       description: Text("You do not have biometrick"))
+            }
+        }
+        .onAppear(perform: authenticate)
     }
     
     private func authenticate() {
