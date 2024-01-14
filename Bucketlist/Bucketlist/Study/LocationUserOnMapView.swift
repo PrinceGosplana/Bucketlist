@@ -17,6 +17,9 @@ struct LocationUserOnMapView: View {
     )
     var body: some View {
         Map(initialPosition: startPosition)
+            .onTapGesture { position in
+                    print("Tapped at \(position)")
+            }
     }
 }
 
