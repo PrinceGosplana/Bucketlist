@@ -16,6 +16,7 @@ struct LocationUserOnMapView: View {
         )
     )
     @State private var locations = [Location]()
+    @State private var selectedState: Location?
     
     var body: some View {
         MapReader { proxy in
@@ -29,6 +30,9 @@ struct LocationUserOnMapView: View {
                             .frame(width: 44, height: 44)
                             .background(.white)
                             .clipShape(.circle)
+                            .onLongPressGesture {
+                                selectedState = location
+                            }
                     }
                 }
             }
@@ -41,6 +45,9 @@ struct LocationUserOnMapView: View {
                                                longitude: coordinate.longitude)
                     locations.append(newLocation)
                 }
+            }
+            .sheet(item: $selectedState) { place in
+                
             }
         }
     }
