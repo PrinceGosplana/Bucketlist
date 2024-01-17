@@ -19,6 +19,7 @@
 		95202B432B47BDC400723164 /* FaceIDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95202B422B47BDC400723164 /* FaceIDView.swift */; };
 		953611EF2B539FE50001E62E /* LocationUserOnMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953611EE2B539FE50001E62E /* LocationUserOnMapView.swift */; };
 		9558EC502B53D2430078C8B1 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9558EC4F2B53D2430078C8B1 /* Location.swift */; };
+		9558EC522B5789D70078C8B1 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9558EC512B5789D70078C8B1 /* EditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		95202B422B47BDC400723164 /* FaceIDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIDView.swift; sourceTree = "<group>"; };
 		953611EE2B539FE50001E62E /* LocationUserOnMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationUserOnMapView.swift; sourceTree = "<group>"; };
 		9558EC4F2B53D2430078C8B1 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		9558EC512B5789D70078C8B1 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			children = (
 				95202B372B43D1EA00723164 /* Study */,
 				95202B292B43D13B00723164 /* BucketlistApp.swift */,
+				9558EC512B5789D70078C8B1 /* EditView.swift */,
 				95202B2B2B43D13B00723164 /* ContentView.swift */,
 				95202B2D2B43D13E00723164 /* Assets.xcassets */,
 				95202B2F2B43D13E00723164 /* Preview Content */,
@@ -171,6 +174,7 @@
 			files = (
 				95202B3B2B4517AD00723164 /* User.swift in Sources */,
 				95202B412B46697300723164 /* MapKitView.swift in Sources */,
+				9558EC522B5789D70078C8B1 /* EditView.swift in Sources */,
 				9558EC502B53D2430078C8B1 /* Location.swift in Sources */,
 				95202B432B47BDC400723164 /* FaceIDView.swift in Sources */,
 				953611EF2B539FE50001E62E /* LocationUserOnMapView.swift in Sources */,
