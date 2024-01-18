@@ -15,7 +15,20 @@ struct EditView: View {
     @State private var description: String
     
     var body: some View {
-        Text("Hello, World!")
+        NavigationStack {
+            Form {
+                Section {
+                    TextField("Place name", text: $name)
+                    TextField("Description", text: $description)
+                }
+            }
+            .navigationTitle("Place details")
+            .toolbar {
+                Button("Save") {
+                    dismiss()
+                }
+            }
+        }
     }
 }
 
