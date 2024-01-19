@@ -47,7 +47,11 @@ struct LocationUserOnMapView: View {
                 }
             }
             .sheet(item: $selectedState) { place in
-                
+                EditView(location: place) { newLocation in
+                    if let index = locations.firstIndex(of: place) {
+                        locations[index] = newLocation
+                    }
+                }
             }
         }
     }
