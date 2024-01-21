@@ -20,6 +20,7 @@
 		953611EF2B539FE50001E62E /* LocationUserOnMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953611EE2B539FE50001E62E /* LocationUserOnMapView.swift */; };
 		9558EC502B53D2430078C8B1 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9558EC4F2B53D2430078C8B1 /* Location.swift */; };
 		9558EC522B5789D70078C8B1 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9558EC512B5789D70078C8B1 /* EditView.swift */; };
+		9558EC7B2B5CE3AF0078C8B1 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9558EC7A2B5CE3AF0078C8B1 /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		953611EE2B539FE50001E62E /* LocationUserOnMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationUserOnMapView.swift; sourceTree = "<group>"; };
 		9558EC4F2B53D2430078C8B1 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		9558EC512B5789D70078C8B1 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		9558EC7A2B5CE3AF0078C8B1 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				95202B372B43D1EA00723164 /* Study */,
 				95202B292B43D13B00723164 /* BucketlistApp.swift */,
 				9558EC512B5789D70078C8B1 /* EditView.swift */,
+				9558EC7A2B5CE3AF0078C8B1 /* Result.swift */,
 				95202B2B2B43D13B00723164 /* ContentView.swift */,
 				95202B2D2B43D13E00723164 /* Assets.xcassets */,
 				95202B2F2B43D13E00723164 /* Preview Content */,
@@ -178,6 +181,7 @@
 				9558EC502B53D2430078C8B1 /* Location.swift in Sources */,
 				95202B432B47BDC400723164 /* FaceIDView.swift in Sources */,
 				953611EF2B539FE50001E62E /* LocationUserOnMapView.swift in Sources */,
+				9558EC7B2B5CE3AF0078C8B1 /* Result.swift in Sources */,
 				95202B3F2B451C9B00723164 /* EnumView.swift in Sources */,
 				95202B2C2B43D13B00723164 /* ContentView.swift in Sources */,
 				95202B3D2B451A1300723164 /* StoringDataView.swift in Sources */,
