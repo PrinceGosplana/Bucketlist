@@ -40,7 +40,7 @@ struct EditView: View {
                             Text(page.title)
                                 .font(.headline)
                             + Text(": ")
-                            + Text("Page description here")
+                            + Text(page.description)
                                 .italic()
                         }
                         
@@ -61,9 +61,9 @@ struct EditView: View {
                     dismiss()
                 }
             }
-            .task {
-                await fetchNearbyPlaces()
-            }
+                        .task {
+                            await fetchNearbyPlaces()
+                        }
         }
     }
     
