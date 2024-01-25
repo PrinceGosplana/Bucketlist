@@ -29,21 +29,18 @@ struct EditView: View {
                     TextField("Place name", text: $name)
                     TextField("Description", text: $description)
                 }
-                
                 Section("Nearby...") {
                     switch loadingState {
                     case .loading:
                         Text("Loading...")
-                        
                     case .loaded:
-                        ForEach(pages, id: \.pageId) { page in
+                        ForEach(pages, id: \.pageid) { page in
                             Text(page.title)
                                 .font(.headline)
                             + Text(": ")
-                            + Text(page.description)
+                            Text(page.description)
                                 .italic()
                         }
-                        
                     case .failed:
                         Text("Please try again later.")
                     }
@@ -61,9 +58,9 @@ struct EditView: View {
                     dismiss()
                 }
             }
-                        .task {
-                            await fetchNearbyPlaces()
-                        }
+            .task {
+                await fetchNearbyPlaces()
+            }
         }
     }
     
