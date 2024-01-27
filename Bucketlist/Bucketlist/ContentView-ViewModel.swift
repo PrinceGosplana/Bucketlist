@@ -15,6 +15,8 @@ extension LocationUserOnMapView {
         private(set) var locations = [Location]()
         var selectedPlace: Location?
         
+        let savePath = URL.documentsDirectory.appending(path: "SavedPlaces")
+        
         func addLocation(at point: CLLocationCoordinate2D) {
             let newLocation = Location(id: UUID(),
                                        name: "New Location",
