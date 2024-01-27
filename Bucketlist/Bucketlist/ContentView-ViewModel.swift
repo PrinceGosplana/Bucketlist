@@ -6,3 +6,12 @@
 //
 
 import Foundation
+import MapKit
+
+extension LocationUserOnMapView {
+    @Observable
+    class ViewModel {
+        var locations = [Location]()
+        var selectedState: Location?
+    }
+}
