@@ -25,6 +25,15 @@ extension LocationUserOnMapView {
                 locations = []
             }
         }
+        
+        func save() {
+            do {
+                let data = try JSONEncoder().encode(locations)
+                try data.write(to: savePath, options: [.atomic, .completeFileProtection])
+            } catch {
+                print("Unable to save data")
+            }
+        }
         func addLocation(at point: CLLocationCoordinate2D) {
             let newLocation = Location(id: UUID(),
                                        name: "New Location",
