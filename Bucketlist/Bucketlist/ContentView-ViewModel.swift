@@ -12,7 +12,7 @@ import MapKit
 extension LocationUserOnMapView {
     @Observable
     class ViewModel {
-        private(set) var locations = [Location]()
+        private(set) var locations: [Location]
         var selectedPlace: Location?
         
         let savePath = URL.documentsDirectory.appending(path: "SavedPlaces")
@@ -41,6 +41,7 @@ extension LocationUserOnMapView {
                                        latitude: point.latitude,
                                        longitude: point.longitude)
             locations.append(newLocation)
+            save()
         }
         
         func update(location: Location) {
@@ -48,6 +49,7 @@ extension LocationUserOnMapView {
             
             if let index = locations.firstIndex(of: selectedPlace) {
                 locations[index] = location
+                save()
             }
         }
     }
