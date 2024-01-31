@@ -69,6 +69,8 @@ extension LocationUserOnMapView {
                         // error
                     }
                 }
+            } else {
+                // no biometrics
             }
         }
     }
