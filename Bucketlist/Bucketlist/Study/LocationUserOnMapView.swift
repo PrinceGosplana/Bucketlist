@@ -49,7 +49,11 @@ struct LocationUserOnMapView: View {
                 }
             }
         } else {
-            // unlock button
+            Button("Unlock places", action: viewModel.authenticate)
+                .padding()
+                .background(.blue)
+                .foregroundStyle(.white)
+                .clipShape(.capsule)
         }
     }
 }
